@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html, body {
+    font-family: "Crimson Text", helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5em;
+    color: #000000;
+  }
+  #logo{
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 1/1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #title-card{
+    width: 500px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 400px;
+    height: 100%;
+    border-right: 10px #CBF0F3 solid;
+    background: #2E2E2E;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 4px #CBF0F3;
+    font-family: "Instrument Sans";
+  }
+  
+  header {
+    text-align: left;
+    margin: 0px;
+    font-size: 1.8em;
+    line-height: 80px;
+    font-family: "Instrument Sans";
+  }
+  .nav-link {
+    font-size: 20px;
+    display: block;
+    color: #FFFFFF;
+    padding: 12.5px 25px;
+    text-decoration: none;
+    text-shadow: 0px 0px 4px #CBF0F3;
+    
+  }
+  
+  #main-doc {
+    position: absolute;
+    margin-left: 420px;
+    padding: 20px;
+    margin-bottom: 110px;
+    line-height:30px;
+  }
+  .job{
+    width: 400px;
+    background: #CBF0F3;
+    padding: 20px;
+    margin: auto;
+    border-radius: 25px;
+    text-align: left;
+  }
+  #title{
+    text-align: center;
+    
+  }
+  ul, ol{
+   margin-left: 40px; 
+   line-height: 40px;
+  }
+  p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  span{
+    font-weight: bold;
+  }
+  @media only screen and (max-width:990px){
+    #navbar {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    max-height: 300px;
+    border-right: solid;
+    z-index: 1;
+    background: #2E2E2E;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 4px #CBF0F3;
+    border-bottom: 10px #CBF0F3 solid;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  #main-doc {
+    position: relative;
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+    #logo{
+    width: 80px;
+    height: 80px;
+    aspect-ratio: 1/1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    #title-card{
+      width: 200px;
+      height: 80px;
+    }
+  }
+  
